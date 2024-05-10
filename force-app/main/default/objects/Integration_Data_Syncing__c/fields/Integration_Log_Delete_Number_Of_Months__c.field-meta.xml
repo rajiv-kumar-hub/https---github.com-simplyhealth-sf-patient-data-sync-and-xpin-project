@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration_Log_Delete_Number_Of_Months__c</fullName>
+    <description>The number of months old an Integration Log entry should be to be considered for deletion from the org. This setting is referenced by the IntegrationLogDeleteBatch job</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of months old an Integration Log entry should be to be considered for deletion from the org. This setting is referenced by the IntegrationLogDeleteBatch job</inlineHelpText>
+    <label>Integration Log Delete Number Of Months</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

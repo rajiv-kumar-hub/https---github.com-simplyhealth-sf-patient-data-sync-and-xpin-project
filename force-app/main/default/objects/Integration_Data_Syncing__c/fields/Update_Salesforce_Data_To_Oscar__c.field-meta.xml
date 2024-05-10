@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_Salesforce_Data_To_Oscar__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>To decide whether to sync data from Salesforce to Oscar or not.</description>
+    <externalId>false</externalId>
+    <label>Update Salesforce Data To Oscar</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

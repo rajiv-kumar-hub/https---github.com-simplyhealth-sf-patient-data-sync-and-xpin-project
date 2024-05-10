@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    <types>
+        <members>PersonAccountUpdate__e</members>
+        <members>Integration_Data_Syncing__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <types>
+        <members>Account_Directory_Person__c.Care_Status__c</members>
+        <members>Account.Care_Status__c</members>
+        <members>Account.Treating_Dentist__c</members>
+        <members>Account.Owning_Dentist__c</members>
+        <members>Account.Dental_Practice__c</members>
+        <members>Account_Directory_Person__c.Treating_Dentist_Id__c</members>
+        <members>Account_Directory_Person__c.Owning_Dentist_Id__c</members>
+        <members>Account_Directory_Person__c.Dental_Practice_Id__c</members>
+        <members>Account_Directory_Person__c.External_Payer_Id__c</members>
+        <members>Account_Directory_Person__c.IsPayer__c</members>
+        <members>Account.IsPayer__c</members>
+        <members>Account.Payer__c</members>
+        <members>Account.Linked_Dentist__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>EtlPersonAccountProcessing</members>
+        <members>EtlPersonAccountProcessing_Test</members>
+        <members>EtlPersonSyncMethods_Test</members>
+        <members>EtlSyncMethods</members>
+        <members>PlatformEventHelper</members>
+        <members>SH_ContactPlatformEvent_Test</members>
+        <members>AccountTriggerHelper</members>
+        <members>AccountTriggerHelper_Test</members>
+        <members>IntegrationsHelper</members>
+        <name>ApexClass</name>
+    </types>
+
+    <types>
+        <members>AccountTrigger</members>
+        <members>AccountDirectoryPersonTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <version>55.0</version>
+</Package>
